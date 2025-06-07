@@ -16,6 +16,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-1572B6?style=flat-square&logo=typescript&logoColor=white)
 
 ## 🎮 Frameworks & Libraries
 ### Game Development
@@ -26,6 +27,8 @@
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![Django](https://img.shields.io/badge/-Django-000000?style=flat-square&logo=Django&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000000?style=flat-square&logo=SQLAlchemy&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white)
 
 ### Data Science and Machine Learning
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
