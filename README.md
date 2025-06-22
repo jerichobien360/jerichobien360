@@ -41,6 +41,7 @@
 ![JASP](https://img.shields.io/badge/-JASP-0F4C75?style=flat-square&logo=jasp&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Microsoft Excel](https://img.shields.io/badge/-Microsoft%20Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 
 ## 📊 Current Learning Path
