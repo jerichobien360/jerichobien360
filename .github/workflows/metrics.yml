@@ -35,14 +35,14 @@ jobs:
           plugin_isocalendar_3d: yes
           
           # Key sizing and styling adjustments
-          config_padding: 6, 12, 6, 12
+          config_padding: 10, 16, 10, 16
           config_output: svg
-          config_display: regular
+          config_display: large
           
           # Match the exact dimensions from your reference image
-          plugin_isocalendar_3d_size: 280
-          plugin_isocalendar_3d_perspective: 1200
-          plugin_isocalendar_3d_angle: 35
+          plugin_isocalendar_3d_size: 560
+          plugin_isocalendar_3d_perspective: 1600
+          plugin_isocalendar_3d_angle: 60
           
           # Optimize for clean output
           optimize: css, xml, svg
@@ -52,7 +52,7 @@ jobs:
           # Commit and push the generated metrics
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
-          committer_message: "🔥 Update daily coding streak metrics"
+          committer_message: "Update daily coding streak metrics"
           
           # Output configuration
           filename: streak-summary.svg
