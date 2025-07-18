@@ -34,20 +34,25 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugin_isocalendar_3d: yes
           
+          # Key sizing and styling adjustments
+          config_padding: 6, 12, 6, 12
+          config_output: svg
+          config_display: regular
+          
+          # Match the exact dimensions from your reference image
+          plugin_isocalendar_3d_size: 280
+          plugin_isocalendar_3d_perspective: 1200
+          plugin_isocalendar_3d_angle: 35
+          
+          # Optimize for clean output
+          optimize: css, xml, svg
+          config_base64: no
+          config_twemoji: yes
+          
           # Commit and push the generated metrics
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "🔥 Update daily coding streak metrics"
           
-          # Output configuration - clean and minimal with proper sizing
+          # Output configuration
           filename: streak-summary.svg
-          config_padding: 8, 16, 8, 16
-          config_output: svg
-          
-          # Prevent cut-offs and ensure consistent sizing
-          optimize: css, xml, svg
-          config_display: regular
-          
-          # Set explicit width to match both images
-          config_base64: no
-          config_twemoji: yes
