@@ -32,16 +32,22 @@ jobs:
           # ISO Calendar - Primary streak visualization (3D isometric style)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_isocalendar_3d: yes
           
           # Commit and push the generated metrics
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "🔥 Update daily coding streak metrics"
           
-          # Output configuration - clean and minimal
+          # Output configuration - clean and minimal with proper sizing
           filename: streak-summary.svg
-          config_padding: 4, 8, 4, 8
+          config_padding: 8, 16, 8, 16
+          config_output: svg
           
-          # Clean minimal styling
+          # Prevent cut-offs and ensure consistent sizing
           optimize: css, xml, svg
           config_display: regular
+          
+          # Set explicit width to match both images
+          config_base64: no
+          config_twemoji: yes
