@@ -1,106 +1,106 @@
-name: Metrics
+name: Daily Coding Streak Metrics
 on:
-  # Schedule to run daily at midnight UTC
+  # Schedule to run daily at midnight UTC to track streak
   schedule:
     - cron: "0 0 * * *"
-  # Allow manual triggering
+  # Allow manual triggering for testing
   workflow_dispatch:
-  # Run on push to main branch
+  # Run on push to main branch to update immediately
   push:
     branches: [ main, master ]
 
 jobs:
-  github-metrics:
+  streak-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Generate GitHub Metrics
+      - name: Generate Daily Coding Streak Metrics
         uses: lowlighter/metrics@latest
         with:
           # Your GitHub token (add this to your repository secrets)
           token: ${{ secrets.METRICS_TOKEN }}
           
-          # Options
+          # Basic configuration
           user: ${{ github.repository_owner }}
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories
           config_timezone: America/New_York
-          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
-          
-          # Layout and sizing
-          config_display: large
+          config_order: base.header, isocalendar, habits, activity, achievements, followup
           config_animations: yes
           
-          # Enable various plugins
+          # ISO Calendar - Primary streak visualization
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           
+          # Habits plugin - Shows coding patterns and streaks
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_from: 365
+          plugin_habits_trim: yes
+          
+          # Activity plugin - Recent coding activity
+          plugin_activity: yes
+          plugin_activity_days: 30
+          plugin_activity_filter: all
+          plugin_activity_limit: 10
+          plugin_activity_load: 500
+          plugin_activity_visibility: all
+          plugin_activity_timestamps: yes
+          
+          # Achievements - Streak-related achievements
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: B
+          plugin_achievements_only: >
+            polyglot, commit, pull-request, issue, review, 
+            follower, repository, star, fork, sponsor
+          
+          # Followup plugin - Track issue/PR completion streaks
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+          
+          # Recent languages to show current focus
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 8
+          plugin_languages_limit: 6
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 400
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
           
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          
-          plugin_contributors: yes
-          plugin_contributors_base: contributions
-          plugin_contributors_head: master
-          plugin_contributors_ignored: bot
-          plugin_contributors_contributions: yes
-          
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-          
+          # Code plugin - Show recent coding activity
           plugin_code: yes
-          plugin_code_lines: 12
-          plugin_code_load: 400
-          plugin_code_days: 3
+          plugin_code_lines: 15
+          plugin_code_load: 500
+          plugin_code_days: 7
           plugin_code_visibility: public
           
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_types: commit
+          # Lines plugin - Track lines of code over time
+          plugin_lines: yes
+          plugin_lines_history_limit: 5
+          plugin_lines_repositories_limit: 6
+          plugin_lines_sections: base, repositories, history
           
           # Commit and push the generated metrics
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
-          committer_message: "Update metrics"
+          committer_message: "🔥 Update daily coding streak metrics"
           
-          # Output file and sizing
-          filename: metrics.svg
-          config_display: large
-          config_output: svg
+          # Output configuration
+          filename: daily-streak-metrics.svg
+          config_padding: 6, 12, 6, 12
           
-          # Custom sizing options
-          config_padding: 0, 8, 0, 8
-          
-          # Optimize for better performance
+          # Optimize for streak visualization
           optimize: css, xml, svg
+          
+          # Additional styling for streak focus
+          config_display: large
+          config_theme: dark
