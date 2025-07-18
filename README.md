@@ -54,7 +54,7 @@
 ## 📈 GitHub Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=jerichobien360&show_icons=true&theme=radical)
 ![GitHub Activity Chart](https://github-readme-activity-graph.vercel.app/graph?username=jerichobien360&theme=github-compact)
-![Daily Coding Streak](./daily-streak-metrics.svg)
+![Daily Coding Streak](./streak-summary.svg)
 
 ## 🔗 Connect with me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jericho-bien-5b751a321/)
