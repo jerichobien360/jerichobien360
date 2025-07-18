@@ -26,6 +26,11 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
+          
+          # Layout and sizing
+          config_display: large
+          config_animations: yes
           
           # Enable various plugins
           plugin_isocalendar: yes
@@ -89,8 +94,13 @@ jobs:
           committer_branch: main
           committer_message: "Update metrics"
           
-          # Output file
+          # Output file and sizing
           filename: metrics.svg
+          config_display: large
+          config_output: svg
+          
+          # Custom sizing options
+          config_padding: 0, 8, 0, 8
           
           # Optimize for better performance
           optimize: css, xml, svg
