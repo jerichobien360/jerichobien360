@@ -1,15 +1,21 @@
 # Hi there, I'm Jericho Bien 👋
 ## 🟡About Me?
-This developer is pursuing expertise as a 🔵<ins>Full Stack Python Developer</ins> with a secondary focus on 🔴<ins>Game Development</ins>. He is actively expanding his technical skillset in FastAPI, data analysis, and web development.
-
-> [!NOTE]
-> He welcomes you for collaboration opportunities on Python-based projects anytime. You may contact me at jerichobien360@gmail.com.
+This developer is pursuing expertise as a 🔵<ins>Full Stack Python Developer</ins> with a secondary focus on 🔴<ins>Game Development</ins>. He is actively expanding his technical skillset in FastAPI, data analysis, and web development. He welcomes you for collaboration opportunities on Python-based projects anytime. You may contact me at jerichobien360@gmail.com.
 
 > [!TIP]
-> He loves to listen to 🎵 **lo-fi music**, which helps him with debugging and code troubleshooting processes.✨
+> **Fun Fact:** He loves to listen to 🎵 **lo-fi music**, which helps him with debugging and code troubleshooting processes.✨
+
+## Projects
+You may look around on my projects that I'm doing right now:
+<br/>
+* [Arena of Shadow](https://github.com/jerichobien360/Arena-of-Shadows)
+
+Others:
+* [Portfolio Website](https://github.com/jerichobien360/portfolio-website)
+* [E-commerce Sales Data Analysis](https://github.com/jerichobien360/data-analysis-portfolio)
 
 
-## 🟡Programming Languages
+## Programming Languages
 #### Mainly Used (for over years):
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -23,7 +29,7 @@ This developer is pursuing expertise as a 🔵<ins>Full Stack Python Developer</
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=sql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-1572B6?style=flat-square&logo=typescript&logoColor=white)
 
-## 🟡Frameworks & Libraries
+## Frameworks & Libraries
 #### Game Development:
 ![PyGame](https://img.shields.io/badge/-Pygame-3776AB?style=flat-square&logo=pygame&logoColor=white)
 
@@ -37,19 +43,19 @@ This developer is pursuing expertise as a 🔵<ins>Full Stack Python Developer</
 ![JASP](https://img.shields.io/badge/-JASP-0F4C75?style=flat-square&logo=jasp&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/-Microsoft%20Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 
-## 🟡Learning Path
+## Learning Path
 - [x] Python Fundamentals
 - [x] Pandas for Data Analysis
 - [ ] FastAPI & Web Development
 - [ ] Database Management
 - [ ] Docker & Deployment
 
-## 🟡Sidelines
+## Sidelines
 - [ ] OpenGL
 - [ ] Responsive Web Design
 - [ ] VFX Modeling
 
-## ⏲️Daily Habit Streak Summary
+## Daily Habit Streak Summary
 ![GitHub Activity Chart](https://github-readme-activity-graph.vercel.app/graph?username=jerichobien360&theme=github-compact)
 ![Daily Coding Streak](./streak-summary.svg)
 
