@@ -21,86 +21,27 @@ jobs:
           # Your GitHub token (add this to your repository secrets)
           token: ${{ secrets.METRICS_TOKEN }}
           
-          # Basic configuration
+          # Basic configuration - minimal header only
           user: ${{ github.repository_owner }}
           template: classic
-          base: header, activity, community, repositories
+          base: header
           config_timezone: America/New_York
-          config_order: base.header, isocalendar, habits, activity, achievements, followup
+          config_order: base.header, isocalendar
           config_animations: yes
           
-          # ISO Calendar - Primary streak visualization
+          # ISO Calendar - Primary streak visualization (3D isometric style)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          
-          # Habits plugin - Shows coding patterns and streaks
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_from: 365
-          plugin_habits_trim: yes
-          
-          # Activity plugin - Recent coding activity
-          plugin_activity: yes
-          plugin_activity_days: 30
-          plugin_activity_filter: all
-          plugin_activity_limit: 10
-          plugin_activity_load: 500
-          plugin_activity_visibility: all
-          plugin_activity_timestamps: yes
-          
-          # Achievements - Streak-related achievements
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: B
-          plugin_achievements_only: >
-            polyglot, commit, pull-request, issue, review, 
-            follower, repository, star, fork, sponsor
-          
-          # Followup plugin - Track issue/PR completion streaks
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          plugin_followup_indepth: yes
-          
-          # Recent languages to show current focus
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 6
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 400
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_threshold: 0%
-          
-          # Code plugin - Show recent coding activity
-          plugin_code: yes
-          plugin_code_lines: 15
-          plugin_code_load: 500
-          plugin_code_days: 7
-          plugin_code_visibility: public
-          
-          # Lines plugin - Track lines of code over time
-          plugin_lines: yes
-          plugin_lines_history_limit: 5
-          plugin_lines_repositories_limit: 6
-          plugin_lines_sections: base, repositories, history
           
           # Commit and push the generated metrics
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "🔥 Update daily coding streak metrics"
           
-          # Output configuration
-          filename: daily-streak-metrics.svg
-          config_padding: 6, 12, 6, 12
+          # Output configuration - clean and minimal
+          filename: streak-summary.svg
+          config_padding: 4, 8, 4, 8
           
-          # Optimize for streak visualization
+          # Clean minimal styling
           optimize: css, xml, svg
-          
-          # Additional styling for streak focus
-          config_display: large
-          config_theme: dark
+          config_display: regular
