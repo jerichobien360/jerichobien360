@@ -24,9 +24,9 @@ jobs:
           # Basic configuration - minimal header only
           user: ${{ github.repository_owner }}
           template: classic
-          base: header
-          config_timezone: America/New_York
-          config_order: base.header, isocalendar
+          base: ""
+          config_timezone: Asia/Manila
+          config_order: isocalendar
           config_animations: yes
           
           # ISO Calendar - Primary streak visualization (3D isometric style)
