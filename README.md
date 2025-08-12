@@ -1,14 +1,15 @@
 # Hi there, I'm Jericho Bien 👋
-## 🟡About Me?
-This developer is pursuing expertise as a 🔵<ins>Full Stack Python Developer</ins> with a secondary focus on 🔴<ins>Game Development</ins>. He is actively expanding his technical skillset in FastAPI, data analysis, and web development. He welcomes you for collaboration opportunities on Python-based projects anytime. You may contact me at jerichobien360@gmail.com.
+## About Me
+Aspiring developer, where I love to build side-projects and contribute related to **Math and Statistics**. And I’m open to collaboration on projects anytime.
+You may contact me at jerichobien360@gmail.com.
 
 > [!TIP]
-> **Fun Fact:** He loves to listen to 🎵 **lo-fi music**, which helps him with debugging and code troubleshooting processes.✨
+> **Fun Fact:** I love listening **lo-fi music**, where it keeps me motivated while debugging and learn new skills.
 
 ## Projects
 You may look around on my projects that I'm doing right now:
 <br/>
-* [Arena of Shadow](https://github.com/jerichobien360/Arena-of-Shadows)
+* [Arena of Shadows](https://github.com/jerichobien360/Arena-of-Shadows) - A medium-large scale RPG game prototype written in pure Python
 
 Others:
 * [Portfolio Website](https://github.com/jerichobien360/portfolio-website)
@@ -16,22 +17,25 @@ Others:
 
 
 ## Programming Languages
-#### Mainly Used (for over years):
+These are the programming languages that I have used over the years and continue to learn about to this day. You may look around at what tools I'm used to:
+#### Mainly Used:
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=sql&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
 
 #### Others:
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=sql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-1572B6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ## Frameworks & Libraries
 #### Game Development:
 ![PyGame](https://img.shields.io/badge/-Pygame-3776AB?style=flat-square&logo=pygame&logoColor=white)
+![SFML](https://img.shields.io/badge/SFML-8CC445?style=flat-square&logo=sfml&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![ModernGL](https://img.shields.io/badge/ModernGL-000000?style=flat-square&logo=python&logoColor=white)
 
 #### Web Development:
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/-Django-000000?style=flat-square&logo=Django&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000000?style=flat-square&logo=SQLAlchemy&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white)
@@ -41,19 +45,6 @@ Others:
 
 #### Software Tools:
 ![JASP](https://img.shields.io/badge/-JASP-0F4C75?style=flat-square&logo=jasp&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/-Microsoft%20Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-
-## Learning Path
-- [x] Python Fundamentals
-- [x] Pandas for Data Analysis
-- [ ] FastAPI & Web Development
-- [ ] Database Management
-- [ ] Docker & Deployment
-
-## Sidelines
-- [ ] OpenGL
-- [ ] Responsive Web Design
-- [ ] VFX Modeling
 
 ## Daily Habit Streak Summary
 ![GitHub Activity Chart](https://github-readme-activity-graph.vercel.app/graph?username=jerichobien360&theme=github-compact)
