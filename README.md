@@ -1,6 +1,6 @@
 # Hi there, I'm Jericho Bien 👋
 ## About Me
-Aspiring developer, where I love to build side-projects and contribute related to **Math and Statistics**. And I’m open to collaboration on projects anytime.
+Aspiring developer, where I love to build side-projects and contribute. I’m also open to collaboration on projects at any time.
 You may contact me at jerichobien360@gmail.com.
 
 > [!TIP]
@@ -13,7 +13,7 @@ You may look around on my projects that I'm doing right now:
 
 Others:
 * [Portfolio Website](https://github.com/jerichobien360/portfolio-website)
-* [E-commerce Sales Data Analysis](https://github.com/jerichobien360/data-analysis-portfolio)
+* [E-commerce Sales Data Analysis](https://github.com/jerichobien360/data-analysis-portfolio) (Working-In-Progress)
 
 
 ## Programming Languages
